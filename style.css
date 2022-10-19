@@ -31,6 +31,7 @@ button {
 
 .container {
   padding: 50px 0;
+  width: 100%;
 }
 
 .row {
@@ -82,7 +83,7 @@ nav {
   padding: 0 20px;
 }
 
-#personal-logo {
+.personal-logo {
   width: 50px;
   height: 50px;
 }
@@ -268,4 +269,31 @@ nav {
 .project__description--link {
   color: white;
   font-size: 20px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #242424;
+  display: flex;
+  padding: 6% 0;
+}
+
+.footer__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__social--list {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin: 28px 0;
+}
+
+.footer__social--link,
+.footer__copyright {
+  color: white;
 }
