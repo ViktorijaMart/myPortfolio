@@ -1,6 +1,14 @@
-// template_5ua5mvm
-// service_33gmjjv
-// nCxKqYJc7SRA08sBc
+let isModalOpen = false;
+let contrastToggle = false;
+
+function toggleContrast() {
+  contrastToggle = !contrastToggle;
+  if (contrastToggle) {
+    document.body.classList += " dark-theme";
+  } else {
+    document.body.classList.remove("dark-theme");
+  }
+}
 
 function contact() {
   event.preventDefault();
@@ -27,7 +35,6 @@ function contact() {
     });
 }
 
-let isModalOpen = false;
 function toggleModal() {
   if (isModalOpen) {
     isModalOpen = false;
