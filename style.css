@@ -559,3 +559,57 @@ footer {
 .footer__copyright {
   color: #68747c;
 }
+
+/* CATS AND DRAGONS */
+
+.shape {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  opacity: 0.7;
+}
+
+.shape--1 {
+  top: 15vh;
+  left: 5vw;
+}
+
+.shape--2 {
+  top: 15vh;
+  left: 50vw;
+}
+
+.shape--3 {
+  top: 15vh;
+  left: 80vw;
+}
+
+.shape--4 {
+  top: 50vh;
+  left: 5vw;
+}
+
+.shape--5 {
+  top: 50vh;
+  left: 50vw;
+}
+
+.shape--6 {
+  top: 50vh;
+  left: 80vw;
+}
+
+.shape--7 {
+  top: 80vh;
+  left: 5vw;
+}
+
+.shape--8 {
+  top: 80vh;
+  left: 50vw;
+}
+
+.shape--9 {
+  top: 80vh;
+  left: 80vw;
+}
